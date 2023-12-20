@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/index.css" />
+</head>
+<!-- login.html -->
+<div class="login-page">
+  <h1>Login to Your Account</h1>
+  <!-- form -->
+  <form onsubmit="navigateTo('homepage'); return false;">
+    <label for="username">Username:</label>
+    <input type="text" id="username" required />
+    <br />
+    <label for="password">Password:</label>
+    <input type="password" id="password" required />
+    <br />
+    <button type="submit">Login</button>
+  </form>
+  <p>Don't have an account? <a href="#">Sign up</a></p>
+</div>
+>
+<script>
+  // function login() {
+  //   // Implement login logic
+  //   // For example, redirect to the homepage
+  //   navigateTo("homepage");
+  // }
+</script>
